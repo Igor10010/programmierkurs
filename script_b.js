@@ -4,14 +4,12 @@ let userAge;
 btn.addEventListener("click", ageCheck);
 function ageCheck() {
     userAge = prompt("Wie alt bist du?");
-    if (userAge >= 18) {
-        alert("Access granted!");
+    if (userAge >= 18) 
         container.textContent = "Sie sind " + userAge + " Jahre alt.";
     } else if (userAge >= 1) {
-        alert("Access denied!");
         container.textContent = "Sie sind " + userAge + " Jahre alt."
     } else {
-        alert("Bitte geben sie eine Zahl die größer als 0 ist ein");
+        alert("Bitte geben sie eine Zahl die grÃ¶ÃŸer als 0 ist ein");
         container.textContent = "";
     }
     while (userAge < 18) {
