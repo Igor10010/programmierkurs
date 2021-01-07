@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(#e0ffff, #87ceeb) no-repeat;
+    font-family: Arial;
+    margin-bottom: 20%;
+}
+header{
+    background-color: #ffffff;
+    height: 70px;
+    box-shadow: 0 0 50px #000000;
+    text-align: center;
+}
+.dropdown{
+        position: relative;
+        display: inline-block;
+    }
+a, .dropbtn{
+    margin: 20px 0 0 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: grey;
+    font-size: 17px;
+    border-radius: 7px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.dropdown-content a {
+    color: black;
+    background-color: grey;
+    padding: 12px 16px;
+    margin: 0 0 15px 15px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content {
+    display: none;
+    margin-left: 20px;
+    min-width: 110px;
+    position: absolute;
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 7px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+#a_top {
+    margin-top: 15px;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a:hover{
+    color: white;
+}
+.info {
+    border: 4px dotted #000000;
+    background-color: #009900;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    font-size: 20px;
+    box-shadow: 10px 10px 10px #000000;
+    margin: 10px 0 50px 400px;
+    display: inline-block;
+    transition: 1s;
+}
+    .info:hover {
+        border: 8px dotted #000000;
+        width: 600px;
+        height: 200px;
+        font-size: 40px;
+        box-shadow: 20px 20px 20px #000000;
+    }
+    h2 {
+        text-align: center;
+        margin: 20px 0 0 0;
+        transition: 1s;
+    }
+h2:hover {
+   font-size: 40px;
+   text-shadow: 0 0 50px #ffffff
+ }
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: inline-block; 
+    margin: 100px 0 0 200px;
+    transition: 1s;
+}
+    img:hover {
+        width: 200px;
+        height: 200px;
+        border-radius: 0;
+        box-shadow: 30px 30px 50px #0000ff;
+    }
+table {
+    border: 3px solid #000000;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: #0000ff;
+    font-size: 20px;
+    width: 400px;
+    height: 100px;
+    color: #ffffff;
+    margin: 50px 0 40px 600px;
+    transition: 1s;
+}
+    table:hover {
+        border: 6px solid #000000;
+        width: 800px;
+        height: 200px;
+        font-size: 40px;
+    }
+    th, td {
+        border: 1px solid #000000;
+        margin: 5px 0 5px 0;
+    }
+.footer {
+    background-color: #ffffff;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    font-size: 20px;
+    box-shadow: 0 0 50px #000000;
+}
+p {
+    margin-top: 30px;
+    font-size: 20px;
+    vertical-align: middle;
+}

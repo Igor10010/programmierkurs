@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: deepskyblue;
+    font-family: Averia, sans-serif;
+    text-align: center;
+}
+
+#add-button{
+    border: 5px solid white;
+    width: 100px;
+    height: 50px;
+    transition: 1s;
+    border-radius: 5px;
+    background-color: white;
+}
+#add-button:hover{
+     background-color: aquamarine;
+     border: 5px solid aquamarine;
+}
+#input{
+        width: 200px;
+        height: 40px;
+}
+

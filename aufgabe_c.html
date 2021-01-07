@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <title>true+true</title>
+    <link rel="stylesheet" href="style_c.css">
+</head>
+<body>
+    <h1>Warum is true + true = 2 ?</h1>
+    <br>
+    <p id="explain">
+        In Javascript werden Variablen-Typen automatisch deklariert.
+        <br>
+        Das hei�t man muss nicht wie z.B. bei Java eingeben ob das ein Float, Integer, Boolean oder String sein soll.
+        <br><br>
+        Wenn man nun diesen Code ausf�rt:
+        <br>
+        let x = "5";
+        <br>
+        console.log(x * 2);
+        <br>
+    </p>
+    <p id="test">
+        Bekommt man 10, obwohl x ein String ist.
+        <br>
+        Das hei�t das JavaScript automatisch den String in einen Integer umwandelt
+        <br>
+        Wenn man nun true + true ausrechnen m�chte bekommt man 2.
+    </p>
+    <p id="result">
+        Das geschieht weil JavaScript, true in eine Number umwandelt.
+        <br><br>
+        In JavaScript ist <b>true</b> als <b>Number</b> = 1
+        <br>
+        <b>false</b> als <b>Number</b> = 0
+        <br>
+        Ein leerer <b>String</b>("") ist als <b>Boolean</b> = false
+        <br>
+        Ein <b>String</b> mit einem Wert als <b>Boolean</b> = true
+        <br>
+        Ein <b>String</b> mit Zahlen z.B "1.5" als <b>Number</b> = 1.5
+        <br> Ein <b>String</b> mit Buchstaben z.B. "Hallo" als <b>Number</b> = NaN
+    </p>
+    <script src="script_c.js"></script>
+</body>
+</html>

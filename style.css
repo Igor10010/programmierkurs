@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    transition: 0.5s;
+    text-align: center;
+}
+#all {
+    transition: 0.5s;
+}
+#start {
+    background-color: black;
+    border: 3px solid red;
+    color: lime;
+    margin: 10px;
+    padding: 5px;
+    font-size: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+#snakeGame {
+    border: 10px double black;
+    transition: 0.5s;
+    display: none;
+    margin: 25px auto 25px auto;
+    border-radius: 2px;
+}
+.ueberschrift {
+    background-color: orange;
+    border: 10px double darkgreen;
+    padding: 5px;
+    border-radius: 20px 20px 20px 0;
+    display: block;
+    width: 250px;
+    margin: auto;
+    transition: 0.5s;
+}
+    .ueberschrift:hover {
+        font-size: 30px;
+        width: 500px;
+        border: 20px double darkgreen;
+        border-radius: 40px 40px 40px 0;
+        box-shadow: 15px 15px 15px black;
+    }
+    .ueberschrift h1 {
+        display: inline-block;
+    }
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 500px blue;
+    display: inline-block;
+    margin: 50px 0 0 50px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+    img:hover {
+        border-radius: 5%;
+    }
+    .rechner{
+        margin: 20px;
+        background-color: lightcoral;
+        display: inline-block;
+        border: 5px dotted lightBlue;
+        padding: 20px;
+    }
+        .rechner p{
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .rechner input {
+            display: inline-block;
+        }
+            .mode {
+                background-color: blue;
+                border-radius: 10px;
+                background: linear-gradient(90deg, black, white);
+                display: inline-block;
+            }
+    .mode button {
+        text-shadow: 0 0 5px white;
+        padding: 5px;
+        cursor: pointer;
+        font-size: 20px;
+        margin: 5px;
+        display: inline-block;
+        background: linear-gradient(90deg, white, black);
+    }
+        .mode button:hover {
+            background: linear-gradient(90deg, black, white);
+        }
+.allPages {
+    background: linear-gradient(90deg, blue, red);
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 15px 30px black;
+    margin: 50px 0 0 50px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+.allPages h3{
+    text-shadow: 5px 5px 3px black;
+    margin: 5px;
+    }
+    .allPages a {
+        color: white;
+        background: linear-gradient(90deg, red, blue);
+        border: 1px solid black;
+        font-size: 15px;
+        padding: 15px;
+        text-decoration: none;
+        border-radius: 10px;
+        display: inline-block;
+        margin: 5px 10px 5px 10px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+        .allPages a:hover {
+            background: linear-gradient(90deg, blue, red);
+        }
+@media all and (max-width: 980px) {
+        body{
+            clear: both;
+    }
+    .rechner input, .rechner button{
+        display: block;
+    }
+    .allPages a {
+        display: block;
+    }
+        
+        .mode button{
+            display: block;
+        }
+}
